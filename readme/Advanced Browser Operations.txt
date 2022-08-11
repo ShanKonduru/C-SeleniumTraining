@@ -1,0 +1,45 @@
+Advanced Browser Operations
+// Handle JavaScript pop-ups
+IAlert a = driver.SwitchTo().Alert();
+a.Accept();
+a.Dismiss();
+// Switch between browser windows or tabs
+ReadOnlyCollection<string> windowHandles = driver.WindowHandles;
+string firstTab = windowHandles.First();
+string lastTab = windowHandles.Last();
+driver.SwitchTo().Window(lastTab);
+// Navigation history
+this.driver.Navigate().Back();
+this.driver.Navigate().Refresh();
+this.driver.Navigate().Forward();
+// Option 1.
+link.SendKeys(string.Empty);
+// Option 2.
+((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].focus();", link);
+// Maximize window
+this.driver.Manage().Window.Maximize();
+// Add a new cookie
+Cookie cookie = new OpenQA.Selenium.Cookie("key", "value");
+this.driver.Manage().Cookies.AddCookie(cookie);
+// Get all cookies
+var cookies = this.driver.Manage().Cookies.AllCookies;
+// Delete a cookie by name
+this.driver.Manage().Cookies.DeleteCookieNamed("CookieName");
+// Delete all cookies
+this.driver.Manage().Cookies.DeleteAllCookies();
+//Taking a full-screen screenshot
+Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+screenshot.SaveAsFile(@"pathToImage", ImageFormat.Png);
+// Wait until a page is fully loaded via JavaScript
+WebDriverWait wait = new WebDriverWait(this.driver, TimeSpan.FromSeconds(30));
+wait.Until((x) =>
+{
+ return ((IJavaScriptExecutor)this.driver).ExecuteScript("return document.readyState").Equals("complete");
+});
+// Switch to frames
+this.driver.SwitchTo().Frame(1);
+this.driver.SwitchTo().Frame("frameName");
+IWebElement element = this.driver.FindElement(By.Id("id"));
+this.driver.SwitchTo().Frame(element);
+// Switch to the default document
+this.driver.SwitchTo().DefaultContent();

@@ -1,0 +1,22 @@
+Basic Elements Operations
+IWebElement element = driver.FindElement(By.Id("id"));
+element.Click();
+element.SendKeys("someText");
+element.Clear();
+element.Submit();
+string innerText = element.Text;
+bool isEnabled = element.Enabled;
+bool isDisplayed = element.Displayed;
+bool isSelected = element.Selected;
+IWebElement element = driver.FindElement(By.Id("id"));
+SelectElement select = new SelectElement(element);
+select.SelectByIndex(1);
+select.SelectByText("Ford");
+select.SelectByValue("ford");
+select.DeselectAll();
+select.DeselectByIndex(1);
+select.DeselectByText("Ford");
+select.DeselectByValue("ford");
+IWebElement selectedOption = select.SelectedOption;
+IList<IWebElement> allSelected = select.AllSelectedOptions;
+bool isMultipleSelect = select.IsMultiple;

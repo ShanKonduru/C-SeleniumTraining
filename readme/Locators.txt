@@ -1,0 +1,15 @@
+Locators
+this.driver.FindElement(By.ClassName("className"));
+this.driver.FindElement(By.CssSelector("css"));
+this.driver.FindElement(By.Id("id"));
+this.driver.FindElement(By.LinkText("text"));
+this.driver.FindElement(By.Name("name"));
+this.driver.FindElement(By.PartialLinkText("pText"));
+this.driver.FindElement(By.TagName("input"));
+this.driver.FindElement(By.XPath("//*[@id='editor']"));
+
+// Find multiple elements
+IReadOnlyCollection<IWebElement> anchors = this.driver.FindElements(By.TagName("a"));
+
+// Search for an element inside another
+var div = this.driver.FindElement(By.TagName("div")).FindElement(By.TagName("a"));

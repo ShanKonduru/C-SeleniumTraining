@@ -1,0 +1,16 @@
+Initialize
+// NuGet: Selenium.WebDriver.ChromeDriver
+using OpenQA.Selenium.Chrome;
+IWebDriver driver = new ChromeDriver();
+// NuGet: Selenium.Mozilla.Firefox.Webdriver
+using OpenQA.Selenium.Firefox;
+IWebDriver driver = new FirefoxDriver();
+// NuGet: Selenium.WebDriver.PhantomJS
+using OpenQA.Selenium.PhantomJS;
+IWebDriver driver = new PhantomJSDriver();
+// NuGet: Selenium.WebDriver.IEDriver
+using OpenQA.Selenium.IE;
+IWebDriver driver = new InternetExplorerDriver();
+// NuGet: Selenium.WebDriver.EdgeDriver
+using OpenQA.Selenium.Edge;
+IWebDriver driver = new EdgeDriver();

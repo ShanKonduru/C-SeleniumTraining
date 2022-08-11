@@ -1,0 +1,9 @@
+Basic Browser Operations
+// Navigate to a page 
+this.driver.Navigate().GoToUrl(@"http://google.com");
+// Get the title of the page
+string title = this.driver.Title;
+// Get the current URL
+string url = this.driver.Url;
+// Get the current page HTML source
+string html = this.driver.PageSource;
