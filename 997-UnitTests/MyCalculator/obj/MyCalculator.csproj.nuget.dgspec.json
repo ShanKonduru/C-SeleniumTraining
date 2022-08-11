@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {}
+    "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {}
   },
   "projects": {
-    "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {
+    "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
-        "projectName": "C#SeleniumTraining",
-        "projectPath": "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
+        "projectUniqueName": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
+        "projectName": "MyCalculator",
+        "projectPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "c:\\C#SeleniumTraining\\obj\\",
+        "outputPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netstandard2.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -34,11 +34,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netstandard2.0": {
           "dependencies": {
-            "Selenium.WebDriver": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.4.0, )"
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -51,11 +53,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }

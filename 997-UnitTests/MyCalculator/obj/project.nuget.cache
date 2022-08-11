@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1GcZngR4s1jcFaFG6zP8aZVav6+niwg29dr2lwZ6e4+qpntUSI/XFHF90QaqAKFk/8/3p2EnAZrH9W21cjKHYg==",
+  "success": true,
+  "projectFilePath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E001150\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\E001150\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
