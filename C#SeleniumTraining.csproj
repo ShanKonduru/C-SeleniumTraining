@@ -5,10 +5,12 @@
 		<RootNamespace>C_SeleniumTraining</RootNamespace>
 		<!--
 		<StartupObject>CSharpSeleniumTraining.HelloWorld</StartupObject>
-		<StartupObject>CSharpSeleniumTraining.FirstProgram</StartupObject>
+		<StartupObject>CSharpSeleniumTraining.SimpleTest</StartupObject>
+    <StartupObject>CSharpSeleniumTraining.MultiElementTest</StartupObject>
+    <StartupObject>CSharpSeleniumTraining.TODO</StartupObject>
 		-->
 		<StartupObject>
-			CSharpSeleniumTraining.SimpleTest
+			CSharpSeleniumTraining.MultiElementTest
 		</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
