@@ -4,13 +4,15 @@
 		<TargetFramework>netcoreapp3.1</TargetFramework>
 		<RootNamespace>C_SeleniumTraining</RootNamespace>
 		<!--
-		<StartupObject>CSharpSeleniumTraining.HelloWorld</StartupObject>
-		<StartupObject>CSharpSeleniumTraining.SimpleTest</StartupObject>
-    <StartupObject>CSharpSeleniumTraining.MultiElementTest</StartupObject>
-    <StartupObject>CSharpSeleniumTraining.TODO</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.HelloWorld</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.SimpleTest</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.MultiElementTest</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.PageObjectModelTest</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.EncryptDecryptTest</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.TODO</StartupObject>
 		-->
 		<StartupObject>
-			CSharpSeleniumTraining.MultiElementTest
+			CSharpSeleniumTraining.PageObjectModelTest
 		</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
