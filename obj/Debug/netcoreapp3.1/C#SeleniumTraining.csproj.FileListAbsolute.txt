@@ -1,0 +1,13 @@
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\C#SeleniumTraining.exe
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\C#SeleniumTraining.deps.json
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\C#SeleniumTraining.runtimeconfig.json
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\C#SeleniumTraining.runtimeconfig.dev.json
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\C#SeleniumTraining.dll
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\C#SeleniumTraining.pdb
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.csprojAssemblyReference.cache
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.AssemblyInfoInputs.cache
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.AssemblyInfo.cs
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.csproj.CoreCompileInputs.cache
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.dll
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.pdb
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.genruntimeconfig.cache
