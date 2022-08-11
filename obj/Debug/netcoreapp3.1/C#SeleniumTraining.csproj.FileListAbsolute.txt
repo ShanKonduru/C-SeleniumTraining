@@ -11,3 +11,6 @@ C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.csproj.CoreComp
 C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.dll
 C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.pdb
 C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.genruntimeconfig.cache
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\C#SeleniumTraining\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\C#SeleniumTraining\obj\Debug\netcoreapp3.1\C#SeleniumTraining.csproj.CopyComplete

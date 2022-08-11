@@ -1,9 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>C_SeleniumTraining</RootNamespace>
+    <!-- 
+          <StartupObject>CSharpSeleniumTraining.HelloWorld</StartupObject>
+    -->
+    <StartupObject>CSharpSeleniumTraining.FirstProgram</StartupObject>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.4.0"/>
+  </ItemGroup>
 </Project>
