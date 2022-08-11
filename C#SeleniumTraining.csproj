@@ -9,10 +9,11 @@
 			<StartupObject>CSharpSeleniumTraining.MultiElementTest</StartupObject>
 			<StartupObject>CSharpSeleniumTraining.PageObjectModelTest</StartupObject>
 			<StartupObject>CSharpSeleniumTraining.EncryptDecryptTest</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.MyCalculatorTest</StartupObject>
 			<StartupObject>CSharpSeleniumTraining.TODO</StartupObject>
 		-->
 		<StartupObject>
-			CSharpSeleniumTraining.PageObjectModelTest
+			CSharpSeleniumTraining.MyCalculatorTest
 		</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
