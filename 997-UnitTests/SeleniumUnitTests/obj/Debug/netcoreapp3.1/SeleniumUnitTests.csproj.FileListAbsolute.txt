@@ -92,3 +92,5 @@ C:\C#SeleniumTraining\997-UnitTests\SeleniumUnitTests\obj\Debug\netcoreapp3.1\Se
 C:\C#SeleniumTraining\997-UnitTests\SeleniumUnitTests\obj\Debug\netcoreapp3.1\SeleniumUnitTests.dll
 C:\C#SeleniumTraining\997-UnitTests\SeleniumUnitTests\obj\Debug\netcoreapp3.1\SeleniumUnitTests.pdb
 C:\C#SeleniumTraining\997-UnitTests\SeleniumUnitTests\obj\Debug\netcoreapp3.1\SeleniumUnitTests.genruntimeconfig.cache
+C:\C#SeleniumTraining\997-UnitTests\SeleniumUnitTests\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
+C:\C#SeleniumTraining\997-UnitTests\SeleniumUnitTests\bin\Debug\netcoreapp3.1\WebDriver.dll

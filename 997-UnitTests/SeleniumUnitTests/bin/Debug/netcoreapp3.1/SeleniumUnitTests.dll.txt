@@ -1,1 +1,4 @@
-SeleniumUnitTests.SeleniumUnitTests.TestMethod1
+SeleniumUnitTests.GoogleHomePageTest.GoogleHomePage_Visited_DoodleDisplayed
+SeleniumUnitTests.GoogleHomePageTest.GoogleHomePage_Visited_TitleIsGoogle
+SeleniumUnitTests.GoogleHomePageTest.TestMethod1
+SeleniumUnitTests.SeleniumUnitTest.TestMethod1

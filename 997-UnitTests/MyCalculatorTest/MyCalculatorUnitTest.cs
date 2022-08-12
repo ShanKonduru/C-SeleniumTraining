@@ -5,31 +5,42 @@ namespace MyCalculator {
     [TestClass]
     public class MyCalculatorUnitTest {
 
+        [TestCategory ("Lifecycle")]
         [AssemblyInitialize]
         public static void AssemblyInitialize (TestContext context) {
             Console.WriteLine ("AssemblyInitialize");
         }
 
+        [TestCategory ("Lifecycle")]
         [ClassInitialize]
         public static void ClassInitialize (TestContext context) {
             Console.WriteLine ("ClassInitialize");
         }
 
+        [TestCategory ("Lifecycle")]
         [TestInitialize]
         public virtual void TestInitialize () {
             Console.WriteLine ("TestInitialize");
         }
 
+        [TestCategory ("Lifecycle")]
+        [TestMethod]
+        public void TestMethod () {
+        }
+
+        [TestCategory ("Lifecycle")]
         [TestCleanup]
         public virtual void TestCleanup () {
             Console.WriteLine ("TestCleanup");
         }
 
+        [TestCategory ("Lifecycle")]
         [ClassCleanup]
         public static void ClassCleanup () {
             Console.WriteLine ("ClassCleanup");
         }
 
+        [TestCategory ("Lifecycle")]
         [AssemblyCleanup]
         public static void AssemblyCleanup () {
             Console.WriteLine ("AssemblyCleanup");
