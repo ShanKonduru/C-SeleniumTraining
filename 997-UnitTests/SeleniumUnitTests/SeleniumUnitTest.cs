@@ -1,12 +1,12 @@
 using System;
 using System.IO;
-using System.Xml;
-using System.Threading;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support;
-using OpenQA.Selenium.Chrome;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Reflection;
+using System.Threading;
+using System.Xml;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support;
 
 namespace SeleniumUnitTests {
 
@@ -16,25 +16,21 @@ namespace SeleniumUnitTests {
         private static Uri baseUrl;
         private static ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver> (() => factory.Create ());
 
-        public IWebDriver Driver
-        {
-            get
-            {
+        public IWebDriver Driver {
+            get {
                 return SeleniumUnitTest.driver.Value;
             }
         }
 
-        public Uri BaseUrl
-        {
-            get
-            {
+        public Uri BaseUrl {
+            get {
                 return SeleniumUnitTest.baseUrl;
             }
         }
 
         public TestContext TestContext { get; set; }
 
-        [AssemblyInitialize]
+        // [AssemblyInitialize]
         public static void AssemblyInitialize (TestContext context) {
             var webDriverType = (string) context.Properties["WebDriver"];
             var baseUrl = (string) context.Properties["BaseUrl"];
@@ -46,7 +42,7 @@ namespace SeleniumUnitTests {
                     var options = new ChromeOptions ();
                     options.AddArguments (new string[] {
                         "--no-sandbox",
-                        "--headless",
+                        /*"--headless",*/
                         "--disable-gpu"
                     });
                     SeleniumUnitTest.factory = new ChromeDriverFactory (workingDirectory, options, TimeSpan.FromSeconds (60));
@@ -61,18 +57,15 @@ namespace SeleniumUnitTests {
             driver.Value.Dispose ();
         }
 
-        [AssemblyCleanup]
+        // [AssemblyCleanup]
         public static void AssemblyCleanup () {
             driver.Dispose ();
         }
 
         [TestInitialize]
-        public virtual void TestInitialize()
-        {
-        }
+        public virtual void TestInitialize () { }
 
         [TestMethod]
-        public void TestMethod1 () { 
-        }
+        public void TestMethod1 () { }
     }
 }
