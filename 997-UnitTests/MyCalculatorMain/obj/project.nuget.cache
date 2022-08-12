@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BegcV3YPcHy+nn2wGVolmfYWTbgh5X77DG+rtX+dO3MmGMpkDHjfHbiBqvxeQN0SPzsc6xAo4qD8mScZATIO9A==",
+  "dgSpecHash": "0B1dKO2TTaN07Kq6OcY4i8O/2ZY/oj0g71HfisQg0BmRaTvTfsCFKJVyae2DikYOUSBQeJu7zhHzxZwkx/+0oA==",
   "success": true,
-  "projectFilePath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorMain\\MyCalculatorMain.csproj",
+  "projectFilePath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorMain\\MyCalculatorMain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1634,16 +1634,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "MyCalculator/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/MyCalculator.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyCalculator.dll": {}
-        }
       }
     }
   },
@@ -5715,11 +5705,6 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "MyCalculator/1.0.0": {
-      "type": "project",
-      "path": "../MyCalculator/MyCalculator.csproj",
-      "msbuildProject": "../MyCalculator/MyCalculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5727,7 +5712,6 @@
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
-      "MyCalculator >= 1.0.0",
       "coverlet.collector >= 1.2.0"
     ]
   },
@@ -5737,11 +5721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
-      "projectName": "MyCalculatorTest",
-      "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
+      "projectUniqueName": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj",
+      "projectName": "SeleniumUnitTests",
+      "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj",
       "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-      "outputPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\obj\\",
+      "outputPath": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5754,11 +5738,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {
-              "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

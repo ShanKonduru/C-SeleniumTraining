@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {}
+    "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj": {}
   },
   "projects": {
-    "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {
+    "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
-        "projectName": "C#SeleniumTraining",
-        "projectPath": "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
+        "projectUniqueName": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj",
+        "projectName": "SeleniumUnitTests",
+        "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "C:\\C#SeleniumTraining\\obj\\",
+        "outputPath": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,9 +36,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Selenium.WebDriver": {
+            "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[4.4.0, )"
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "imports": [

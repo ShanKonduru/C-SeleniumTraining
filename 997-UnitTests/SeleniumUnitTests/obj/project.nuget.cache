@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TVpLZnT8eUdT+b/lIAyKjvgtEVWeJPitEJXyh03SeC8io+4UXNeRleT2YJCVWjODEj9LJsNcZ8fVyYMd0o8cgA==",
+  "dgSpecHash": "5lh2BxV9QgAhEQeIEWQRNDa0T9TkOLbQf3IKJ8qZW83f1qp5sOIYA1CQVFn+X9nZnV5oTGbLv8eiUeRvVxqRvQ==",
   "success": true,
-  "projectFilePath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
+  "projectFilePath": "C:\\C#SeleniumTraining\\997-UnitTests\\SeleniumUnitTests\\SeleniumUnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E001150\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\E001150\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

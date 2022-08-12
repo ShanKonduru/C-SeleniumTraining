@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj": {}
+    "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj": {}
   },
   "projects": {
-    "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj": {
+    "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
+        "projectUniqueName": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
         "projectName": "MyCalculatorTest",
-        "projectPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
+        "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\MyCalculatorTest.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\obj\\",
+        "outputPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculatorTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {
-                "projectPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj"
+              "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {
+                "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {
+    "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
+        "projectUniqueName": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
         "projectName": "MyCalculator",
-        "projectPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
+        "projectPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\MyCalculator.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "c:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\obj\\",
+        "outputPath": "C:\\C#SeleniumTraining\\997-UnitTests\\MyCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
