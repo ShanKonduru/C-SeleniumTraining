@@ -42,6 +42,7 @@ namespace CSharpSeleniumTraining {
             Console.WriteLine (MyCalculator.Add (10, 20));
             Console.WriteLine (MyCalculator.Division (10, 20));
             Console.WriteLine (MyCalculator.Power (2, 5));
+            Console.WriteLine (MyCalculator.Subtract(2, 5));
         }
     }
 }

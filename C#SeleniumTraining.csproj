@@ -10,6 +10,7 @@
 			<StartupObject>CSharpSeleniumTraining.PageObjectModelTest</StartupObject>
 			<StartupObject>CSharpSeleniumTraining.EncryptDecryptTest</StartupObject>
 			<StartupObject>CSharpSeleniumTraining.MyCalculatorTest</StartupObject>
+			<StartupObject>CSharpSeleniumTraining.FirstProgram</StartupObject>
 			<StartupObject>CSharpSeleniumTraining.TODO</StartupObject>
 		-->
 		<StartupObject>

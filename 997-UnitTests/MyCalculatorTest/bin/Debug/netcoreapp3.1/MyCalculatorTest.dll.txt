@@ -1,3 +1,0 @@
-MyCalculator.MyCalculatorUnitTest.TestMethod
-MyCalculator.MyCalculatorUnitTest.TestAddMethod
-MyCalculator.MyCalculatorUnitTest.NegativeTestAddMethod

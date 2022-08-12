@@ -1,9 +1,0 @@
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\bin\Debug\netstandard2.0\MyCalculator.deps.json
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\bin\Debug\netstandard2.0\MyCalculator.dll
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\bin\Debug\netstandard2.0\MyCalculator.pdb
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.csprojAssemblyReference.cache
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.AssemblyInfoInputs.cache
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.AssemblyInfo.cs
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.csproj.CoreCompileInputs.cache
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.dll
-C:\C#SeleniumTraining\997-UnitTests\MyCalculator\obj\Debug\netstandard2.0\MyCalculator.pdb
