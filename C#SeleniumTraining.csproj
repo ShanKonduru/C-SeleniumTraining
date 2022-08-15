@@ -14,7 +14,7 @@
 			<StartupObject>CSharpSeleniumTraining.TODO</StartupObject>
 		-->
 		<StartupObject>
-			CSharpSeleniumTraining.MyCalculatorTest
+			CSharpSeleniumTraining.PageObjectModelTest
 		</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {}
+    "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {}
   },
   "projects": {
-    "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {
+    "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
+        "projectUniqueName": "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
         "projectName": "C#SeleniumTraining",
-        "projectPath": "C:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
+        "projectPath": "c:\\C#SeleniumTraining\\C#SeleniumTraining.csproj",
         "packagesPath": "C:\\Users\\E001150\\.nuget\\packages\\",
-        "outputPath": "C:\\C#SeleniumTraining\\obj\\",
+        "outputPath": "c:\\C#SeleniumTraining\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E001150\\AppData\\Roaming\\NuGet\\NuGet.Config"
